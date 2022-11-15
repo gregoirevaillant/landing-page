@@ -2,3 +2,70 @@
     margin: 0;
     padding: 0;
 }
+
+
+
+.hero {
+    padding: 0 250px;
+    background-color: #1f2937;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.heroContent {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.heroLeftContent {
+    margin: 10px 32px;
+}
+
+.heroContentTitle {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 10px 0;
+
+}
+
+.heroInformation {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.cta {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.heroImage {
+    width: 350px;
+    height: auto;
+}

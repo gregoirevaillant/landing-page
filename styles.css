@@ -3,8 +3,6 @@
     padding: 0;
 }
 
-
-
 .hero {
     padding: 0 250px;
     background-color: #1f2937;
@@ -15,11 +13,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.logo {
-    width: 100px;
-    height: auto;
 }
 
 .navbar {
@@ -33,7 +26,6 @@
     color: white;
 }
 
-
 .heroContent {
     display: flex;
     justify-content: space-around;
@@ -42,6 +34,10 @@
 
 .heroLeftContent {
     margin: 10px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .heroContentTitle {
@@ -65,7 +61,81 @@
     margin: 10px 0;
 }
 
-.heroImage {
-    width: 350px;
-    height: auto;
+.information {
+    padding: 100px 250px;
+    background-color: white;
+}
+
+.informationTitle {
+    margin: 25px 0;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img {
+    border-radius: 10px;
+    margin: 50px 15px;
+}
+
+.cardText {
+    text-align: justify;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 250px;
+}
+
+.quoteText {
+    font-size: 36px;
+}
+
+.quoteAuthor {
+    align-self: flex-end;
+}
+
+.callToAction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 250px;
+    color: #E5E7EB;
+}
+
+.callToActionBoxe {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 25px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonCallToAction .cta {
+    border: solid 1px #E5E7EB;
+    border-radius: 10px;
+    margin-left: 55px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
 }
